@@ -13,13 +13,19 @@ m is the coefficient of the independent variable.
 c is the y-intercept. The algorithm aims to find the best-fitting linear relationship between the input variables and the output, enabling predictions based on this relationship.\
 
 # Project Workflow
-Data Splitting: The dataset is divided into training and testing sets, with 75% of the data allocated to the training set and the remaining 25% to the testing set.
-Model Training: The Linear Regression model is trained using the training set. It predicts the coefficients of dependent variables and the y-intercept to establish the relationship between input features and target values.
+ Data Splitting: The dataset is divided into training and testing sets, with 75% of the data allocated to the training set and the remaining 25% to the testing set.
+ 
+ Model Training: The Linear Regression model is trained using the training set. It predicts the coefficients of dependent variables and the y-intercept to establish the relationship between input features and target values.
+ 
 Testing and Predictions: The trained model is evaluated using the testing set. The testing set data is fed into the trained model to generate predictions based on the established relationship.
+
 Accuracy Assessment: The accuracy of the model is calculated and displayed, showcasing the model's performance in predicting stock prices. Achieving an accuracy of >99% demonstrates the effectiveness of the trained model in predicting stock prices. image
 
 # Technologies Used
 Python: Language used for coding the project.
+
 Pandas, NumPy: Libraries used for data manipulation and analysis.
+
 Matplotlib: Library utilized for data visualization.
+
 Scikit-learn (sklearn): Framework used for implementing machine learning algorithms.
